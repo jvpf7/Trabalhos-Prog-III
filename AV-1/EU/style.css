@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body {
+    background-color: #000000;
+    background: linear-gradient(to bottom, #000000, #333333);
+    display: flex;
+    justify-content: center; /* Centralizando horizontalmente os itens */
+    flex-wrap: wrap; /* Permitindo que os itens quebrem para a próxima linha */
+
+}
+
+
+h1{
+    font-size: 150px;
+    /*Padding é o espaço entre o conteúdo e a borda. Margin é transparente, padding não (pq é o espaço interno)*/
+    margin: 20px;
+    font-family: Honk;
+    text-align: center;
+}
+
+img {
+    width: 390px;
+    height: auto;
+    border: 10px solid #000;
+    border-radius: 50px;
+    margin: 10px; /* Adiciona espaçamento entre as imagens */
+}
+
+.musicas{
+    background-color: #000;
+}
+
+
+
+.musicas-title {
+    font-size: 150px;
+}
+
+.image-container {
+    display: flex; /* Faz com que os itens dentro do container sejam exibidos em linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se necessário */
+}
+
+.image-container a {
+    margin: 10px; /* Adiciona um espaçamento entre as imagens */
+}
+
+.image-container a img {
+    width: 100%; /* Define a largura da imagem como 100% do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 250px; /* Define a largura máxima da imagem */
+}
+
+
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+
+
+.filmes {
+    background-color: #000;
+    background: linear-gradient(to bottom, #000000, #333333);
+}
+
+.movies-list {
+    display: flex;
+    flex-direction: column; /* Alterado para exibir os vídeos em uma coluna */
+    align-items: center; /* Centraliza os vídeos horizontalmente */
+    gap: 50px; /* Espaçamento entre os vídeos */
+}
+
+iframe {
+    border-radius: 30px; 
+}
+
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+
+
+
+.livros {
+    background-color: #000;
+}
+
+.books-list {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os livros quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os livros horizontalmente */
+    gap: 50px; /* Espaçamento entre os livros */
+}
+
+.book {
+    max-width: 45%; /* Define a largura máxima para os livros */
+}
+
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+
+.me {
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.1);
+}
+
+.biografia, .interesses {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid black; 
+    text-align: center;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: "Special Elite", system-ui;
+    font-size: 50px;
+    color: black; 
+}
+
+p {
+    font-family: "Special Elite", system-ui;
+    font-size: 30px;
+    line-height: 1.6;
+    color: black; 
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    font-family: "Special Elite", system-ui;
+}
+
+ul li {
+    margin-bottom: 5px; 
+}
+
+
+
+
+
+
+/* Estilizando a primeira imagem */
+.image-container a:nth-child(1):hover img {
+    background-color:rgb(6, 179, 0); /* Cor para a primeira imagem */
+    color: black; /* Cor do texto para a primeira imagem */
+}
+
+.image-container a:nth-child(2):hover img {
+    background-color:rgb(0, 0, 0); /* Cor para a primeira imagem */
+    color: black; /* Cor do texto para a primeira imagem */
+}
+
+/* Estilizando a terceira imagem */
+.image-container a:nth-child(3):hover img {
+    background-color:  #0f017b; /* Cor para a terceira imagem */
+    color: #000000; /* Cor do texto para a terceira imagem */
+}
+
+/* Estilizando a quarta imagem */
+.image-container a:nth-child(4):hover img {
+    background-color: #ff0000; /* Cor para a quarta imagem */
+    color: #000000; /* Cor do texto para a quarta imagem */
+}
